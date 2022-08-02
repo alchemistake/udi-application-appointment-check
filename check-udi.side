@@ -11,6 +11,10 @@
       "command": "open",
       "target": "/"
     }, {
+      "id": "udi-set-size",
+      "command": "setWindowSize",
+      "target": "1920x1080"
+    }, {
       "id": "udi-type-password",
       "command": "type",
       "target": "id=password",
@@ -29,6 +33,10 @@
       "command": "click",
       "target": "linkText=Gå til søknad"
     }, {
+      "id": "udi-wait",
+      "command": "pause",
+      "target": "10000"
+    },  {
       "id": "udi-change-appointment",
       "command": "click",
       "target": "xpath=//button[contains(.,'Bytt time')]"
